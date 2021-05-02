@@ -2,11 +2,10 @@
   text-align: center;
 }
 
-.rules button {
-  float: right;
-  position: relative;
-  right: 10%;
+.rules .modal-button {
   width: 8%;
+  position: relative;
+  left: 40%;
 }
 
 .modal-header {
@@ -22,47 +21,49 @@
 }
 
 .modal-header .btn-close {
-  margin-right: 5%;
+  position: relative;
+  right: 7%;
 }
 
 .modal-body {
   padding-bottom: 8%;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .rules button {
-    float: none;
-    right: 0;
+@media (max-width: 360px) {
+  .modal-body img {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .rules .modal-button {
+    left: 0;
     width: 35%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .rules button {
-    float: none;
-    right: 0;
+  .rules .modal-button {
+    left: 0;
     width: 20%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
-  .rules button {
-    float: right;
-    position: relative;
-    right: 10%;
+  .rules .modal-button {
+    left: 35%;
     width: 20%;
-    bottom: 10px;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .rules button {
+  .rules .modal-button {
     width: 15%;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
-  .rules button {
+  .rules .modal-button{
     width: 12%;
   }
 }

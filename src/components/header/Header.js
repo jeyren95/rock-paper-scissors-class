@@ -9,8 +9,8 @@ class Header extends React.Component {
       <div className="header">
         <img className="header-image" src="../images/logo.svg" alt=""/>
         <div className="score">
-          <div className="score-text">SCORE</div>
-          <div className="score-number">{this.props.score}</div>
+          <p className="score-text">SCORE</p>
+          <p className="score-number">{this.props.score}</p>
         </div>
       </div>
     )

@@ -3,8 +3,6 @@ import {Link} from "react-router-dom";
 
 import "./Home.css";
 
-
-
 class Home extends React.Component {
   renderChoices() {
     const choices = ["paper", "scissors", "rock"]

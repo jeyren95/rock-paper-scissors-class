@@ -6,7 +6,7 @@ class Rules extends React.Component {
   render() {
     return (
       <div className="rules">
-        <button type="button" className="ui inverted button" data-bs-toggle="modal" data-bs-target="#rulesModal">RULES</button>
+        <button type="button" className="ui inverted button modal-button" data-bs-toggle="modal" data-bs-target="#rulesModal">RULES</button>
 
         <div className="modal fade" id="rulesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div className="modal-dialog modal-dialog-centered">
